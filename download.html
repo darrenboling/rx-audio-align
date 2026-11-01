@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download RX Audio Align</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#fff; --fg:#000; --muted:#595959; --line:#d8d8d8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0b0b0b; --fg:#f2f2f2; --muted:#a6a6a6; --line:#333; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 'Archivo',Helvetica,Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+  main { max-width:620px; margin:0 auto; padding:64px max(22px, env(safe-area-inset-left)) 64px max(22px, env(safe-area-inset-right)); }
+  h1 { font-family:'Anton',Impact,'Arial Narrow',sans-serif; font-weight:400; text-transform:uppercase; font-size:clamp(40px,8vw,64px); line-height:0.92; margin:0 0 18px; text-wrap:balance; }
+  p { margin:0 0 14px; }
+  .muted { color:var(--muted); font-size:14px; }
+  a { color:inherit; }
+  .btn { display:inline-block; background:var(--fg); color:var(--bg); padding:15px 26px; margin:8px 0 26px; font-family:'Anton',Impact,sans-serif; font-size:19px; text-transform:uppercase; text-decoration:none; }
+  .btn:hover, .btn:focus-visible { opacity:0.85; }
+  ol { margin:0 0 22px; padding-left:22px; }
+  li { margin:0 0 8px; }
+  .box { border-top:1px solid var(--line); padding-top:18px; margin-top:8px; }
+  .mono { font-family:ui-monospace,Menlo,monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p class="mono">RX Audio Align · macOS 13 or later</p>
+  <h1>Your download is starting</h1>
+  <p>If it doesn’t start in a few seconds, use the button below.</p>
+  <a class="btn" id="dl" href="RX-Audio-Align-latest.dmg">Download RX Audio Align</a>
+
+  <ol>
+    <li>Open <strong>RX-Audio-Align-latest.dmg</strong> from your Downloads.</li>
+    <li>Drag <strong>RX Audio Align</strong> onto the <strong>Applications</strong> folder in the window that opens.</li>
+    <li>Open RX Audio Align from Applications. An RX Replay license unlocks it; without one it runs as a 14-day demo.</li>
+  </ol>
+
+  <div class="box">
+    <p class="muted">Chrome may block new downloads it hasn’t seen often. Click the download icon at the top right of Chrome and choose <strong>Keep</strong>, or download with Safari. RX Audio Align is signed and notarized by Apple.</p>
+    <p class="muted"><a href="https://darrenbolingmastering.com/rx-replay">Back to RX Replay</a></p>
+  </div>
+</main>
+<script>
+  // Start the download once the page has loaded (this page isn't sandboxed, so Chrome allows it)
+  window.addEventListener('load', function () {
+    setTimeout(function () { window.location.href = document.getElementById('dl').href; }, 600);
+  });
+</script>
+</body>
+</html>
