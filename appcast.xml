@@ -3,6 +3,14 @@
     <channel>
         <title>RX Audio Align</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sun, 01 Nov 2026 11:08:52 -0800</pubDate>
+            <sparkle:version>202611011108</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://darrenboling.github.io/rx-audio-align/RX-Audio-Align-1.0.1.zip" length="1584048" type="application/octet-stream" sparkle:edSignature="luHzK9NCzNl0VLuWjILTZdqIGOJ32BBGtCJOSq8H10FhcQfO6GF168GQMRRTQFPpH6tMd3vVaEYw20yytVJmBw=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Sun, 01 Nov 2026 06:44:27 -0800</pubDate>
             <sparkle:version>202611010643</sparkle:version>
