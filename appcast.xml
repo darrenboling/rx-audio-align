@@ -3,7 +3,15 @@
     <channel>
         <title>RX Audio Align</title>
         <item>
-            <title>1.0.1</title>
+            <title>RX Audio Align 1.1.0</title>
+            <pubDate>Tue, 10 Nov 2026 20:25:06 -0800</pubDate>
+            <sparkle:version>202611102024</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://darrenboling.github.io/rx-audio-align/RX-Audio-Align-1.1.0.zip" length="1639400" type="application/octet-stream" sparkle:edSignature="pVUgRepdnZHcb3kZkBq3fCdeDM58OH/47xK5Y2CtJyg7m+hMVJj087nK2q4sagpzJNqdTdAsHvrz1V8R0AztCA=="/>
+        </item>
+        <item>
+            <title>RX Audio Align 1.0.1</title>
             <pubDate>Sun, 01 Nov 2026 11:08:52 -0800</pubDate>
             <sparkle:version>202611011108</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
@@ -11,7 +19,7 @@
             <enclosure url="https://darrenboling.github.io/rx-audio-align/RX-Audio-Align-1.0.1.zip" length="1584048" type="application/octet-stream" sparkle:edSignature="luHzK9NCzNl0VLuWjILTZdqIGOJ32BBGtCJOSq8H10FhcQfO6GF168GQMRRTQFPpH6tMd3vVaEYw20yytVJmBw=="/>
         </item>
         <item>
-            <title>1.0.0</title>
+            <title>RX Audio Align 1.0.0</title>
             <pubDate>Sun, 01 Nov 2026 06:44:27 -0800</pubDate>
             <sparkle:version>202611010643</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
